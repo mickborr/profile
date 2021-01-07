@@ -41,8 +41,11 @@ h2 {
 }
 
 #profil_pictur{
-  height: 180px;
-  width: 260px;
+
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
 
 .img_circul{
@@ -72,4 +75,17 @@ h2 {
 .list-inline {
     list-style: none;
     padding-left: 0px;
+}
+
+.image-cropper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 3rem;
 }
